@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255BB5342AB9E62400FA9EF2 /* TagViewAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BB5332AB9E62400FA9EF2 /* TagViewAppApp.swift */; };
+		255BB5362AB9E62400FA9EF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BB5352AB9E62400FA9EF2 /* ContentView.swift */; };
+		255BB5382AB9E62600FA9EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255BB5372AB9E62600FA9EF2 /* Assets.xcassets */; };
+		255BB53B2AB9E62600FA9EF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255BB53A2AB9E62600FA9EF2 /* Preview Assets.xcassets */; };
+		255BB5452AB9E62600FA9EF2 /* TagViewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BB5442AB9E62600FA9EF2 /* TagViewAppTests.swift */; };
+		255BB54F2AB9E62600FA9EF2 /* TagViewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BB54E2AB9E62600FA9EF2 /* TagViewAppUITests.swift */; };
+		255BB5512AB9E62600FA9EF2 /* TagViewAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BB5502AB9E62600FA9EF2 /* TagViewAppUITestsLaunchTests.swift */; };
+		255BB55F2AB9E66C00FA9EF2 /* LHHelpers in Frameworks */ = {isa = PBXBuildFile; productRef = 255BB55E2AB9E66C00FA9EF2 /* LHHelpers */; };
+		255BB5612ABA07B800FA9EF2 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BB5602ABA07B800FA9EF2 /* TagView.swift */; };
+		255BB5642ABA086900FA9EF2 /* TagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BB5632ABA086900FA9EF2 /* TagViewModel.swift */; };
+		255BB5662ABA08B500FA9EF2 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BB5652ABA08B500FA9EF2 /* Tag.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		255BB5412AB9E62600FA9EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255BB5282AB9E62400FA9EF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255BB52F2AB9E62400FA9EF2;
+			remoteInfo = TagViewApp;
+		};
+		255BB54B2AB9E62600FA9EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255BB5282AB9E62400FA9EF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255BB52F2AB9E62400FA9EF2;
+			remoteInfo = TagViewApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		255BB5302AB9E62400FA9EF2 /* TagViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		255BB5332AB9E62400FA9EF2 /* TagViewAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewAppApp.swift; sourceTree = "<group>"; };
+		255BB5352AB9E62400FA9EF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		255BB5372AB9E62600FA9EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		255BB53A2AB9E62600FA9EF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		255BB5402AB9E62600FA9EF2 /* TagViewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagViewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		255BB5442AB9E62600FA9EF2 /* TagViewAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewAppTests.swift; sourceTree = "<group>"; };
+		255BB54A2AB9E62600FA9EF2 /* TagViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		255BB54E2AB9E62600FA9EF2 /* TagViewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewAppUITests.swift; sourceTree = "<group>"; };
+		255BB5502AB9E62600FA9EF2 /* TagViewAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		255BB5602ABA07B800FA9EF2 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		255BB5632ABA086900FA9EF2 /* TagViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewModel.swift; sourceTree = "<group>"; };
+		255BB5652ABA08B500FA9EF2 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255BB52D2AB9E62400FA9EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255BB55F2AB9E66C00FA9EF2 /* LHHelpers in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255BB53D2AB9E62600FA9EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255BB5472AB9E62600FA9EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255BB5272AB9E62400FA9EF2 = {
+			isa = PBXGroup;
+			children = (
+				255BB5322AB9E62400FA9EF2 /* TagViewApp */,
+				255BB5432AB9E62600FA9EF2 /* TagViewAppTests */,
+				255BB54D2AB9E62600FA9EF2 /* TagViewAppUITests */,
+				255BB5312AB9E62400FA9EF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		255BB5312AB9E62400FA9EF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255BB5302AB9E62400FA9EF2 /* TagViewApp.app */,
+				255BB5402AB9E62600FA9EF2 /* TagViewAppTests.xctest */,
+				255BB54A2AB9E62600FA9EF2 /* TagViewAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		255BB5322AB9E62400FA9EF2 /* TagViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				255BB5332AB9E62400FA9EF2 /* TagViewAppApp.swift */,
+				255BB5352AB9E62400FA9EF2 /* ContentView.swift */,
+				255BB5372AB9E62600FA9EF2 /* Assets.xcassets */,
+				255BB5392AB9E62600FA9EF2 /* Preview Content */,
+				255BB5622ABA084E00FA9EF2 /* TagView */,
+			);
+			path = TagViewApp;
+			sourceTree = "<group>";
+		};
+		255BB5392AB9E62600FA9EF2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				255BB53A2AB9E62600FA9EF2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		255BB5432AB9E62600FA9EF2 /* TagViewAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				255BB5442AB9E62600FA9EF2 /* TagViewAppTests.swift */,
+			);
+			path = TagViewAppTests;
+			sourceTree = "<group>";
+		};
+		255BB54D2AB9E62600FA9EF2 /* TagViewAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				255BB54E2AB9E62600FA9EF2 /* TagViewAppUITests.swift */,
+				255BB5502AB9E62600FA9EF2 /* TagViewAppUITestsLaunchTests.swift */,
+			);
+			path = TagViewAppUITests;
+			sourceTree = "<group>";
+		};
+		255BB5622ABA084E00FA9EF2 /* TagView */ = {
+			isa = PBXGroup;
+			children = (
+				255BB5602ABA07B800FA9EF2 /* TagView.swift */,
+				255BB5632ABA086900FA9EF2 /* TagViewModel.swift */,
+				255BB5652ABA08B500FA9EF2 /* Tag.swift */,
+			);
+			path = TagView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		255BB52F2AB9E62400FA9EF2 /* TagViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255BB5542AB9E62600FA9EF2 /* Build configuration list for PBXNativeTarget "TagViewApp" */;
+			buildPhases = (
+				255BB52C2AB9E62400FA9EF2 /* Sources */,
+				255BB52D2AB9E62400FA9EF2 /* Frameworks */,
+				255BB52E2AB9E62400FA9EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagViewApp;
+			packageProductDependencies = (
+				255BB55E2AB9E66C00FA9EF2 /* LHHelpers */,
+			);
+			productName = TagViewApp;
+			productReference = 255BB5302AB9E62400FA9EF2 /* TagViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		255BB53F2AB9E62600FA9EF2 /* TagViewAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255BB5572AB9E62600FA9EF2 /* Build configuration list for PBXNativeTarget "TagViewAppTests" */;
+			buildPhases = (
+				255BB53C2AB9E62600FA9EF2 /* Sources */,
+				255BB53D2AB9E62600FA9EF2 /* Frameworks */,
+				255BB53E2AB9E62600FA9EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255BB5422AB9E62600FA9EF2 /* PBXTargetDependency */,
+			);
+			name = TagViewAppTests;
+			productName = TagViewAppTests;
+			productReference = 255BB5402AB9E62600FA9EF2 /* TagViewAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		255BB5492AB9E62600FA9EF2 /* TagViewAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255BB55A2AB9E62600FA9EF2 /* Build configuration list for PBXNativeTarget "TagViewAppUITests" */;
+			buildPhases = (
+				255BB5462AB9E62600FA9EF2 /* Sources */,
+				255BB5472AB9E62600FA9EF2 /* Frameworks */,
+				255BB5482AB9E62600FA9EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255BB54C2AB9E62600FA9EF2 /* PBXTargetDependency */,
+			);
+			name = TagViewAppUITests;
+			productName = TagViewAppUITests;
+			productReference = 255BB54A2AB9E62600FA9EF2 /* TagViewAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255BB5282AB9E62400FA9EF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					255BB52F2AB9E62400FA9EF2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					255BB53F2AB9E62600FA9EF2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 255BB52F2AB9E62400FA9EF2;
+					};
+					255BB5492AB9E62600FA9EF2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 255BB52F2AB9E62400FA9EF2;
+					};
+				};
+			};
+			buildConfigurationList = 255BB52B2AB9E62400FA9EF2 /* Build configuration list for PBXProject "TagViewApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 255BB5272AB9E62400FA9EF2;
+			packageReferences = (
+				255BB55D2AB9E66C00FA9EF2 /* XCRemoteSwiftPackageReference "LHHelpers" */,
+			);
+			productRefGroup = 255BB5312AB9E62400FA9EF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255BB52F2AB9E62400FA9EF2 /* TagViewApp */,
+				255BB53F2AB9E62600FA9EF2 /* TagViewAppTests */,
+				255BB5492AB9E62600FA9EF2 /* TagViewAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		255BB52E2AB9E62400FA9EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255BB53B2AB9E62600FA9EF2 /* Preview Assets.xcassets in Resources */,
+				255BB5382AB9E62600FA9EF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255BB53E2AB9E62600FA9EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255BB5482AB9E62600FA9EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255BB52C2AB9E62400FA9EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255BB5362AB9E62400FA9EF2 /* ContentView.swift in Sources */,
+				255BB5642ABA086900FA9EF2 /* TagViewModel.swift in Sources */,
+				255BB5662ABA08B500FA9EF2 /* Tag.swift in Sources */,
+				255BB5342AB9E62400FA9EF2 /* TagViewAppApp.swift in Sources */,
+				255BB5612ABA07B800FA9EF2 /* TagView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255BB53C2AB9E62600FA9EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255BB5452AB9E62600FA9EF2 /* TagViewAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255BB5462AB9E62600FA9EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255BB5512AB9E62600FA9EF2 /* TagViewAppUITestsLaunchTests.swift in Sources */,
+				255BB54F2AB9E62600FA9EF2 /* TagViewAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		255BB5422AB9E62600FA9EF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255BB52F2AB9E62400FA9EF2 /* TagViewApp */;
+			targetProxy = 255BB5412AB9E62600FA9EF2 /* PBXContainerItemProxy */;
+		};
+		255BB54C2AB9E62600FA9EF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255BB52F2AB9E62400FA9EF2 /* TagViewApp */;
+			targetProxy = 255BB54B2AB9E62600FA9EF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		255BB5522AB9E62600FA9EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		255BB5532AB9E62600FA9EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		255BB5552AB9E62600FA9EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TagViewApp/Preview Content\"";
+				DEVELOPMENT_TEAM = M2DD4Z95YZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LuizHammerli.TagViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		255BB5562AB9E62600FA9EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TagViewApp/Preview Content\"";
+				DEVELOPMENT_TEAM = M2DD4Z95YZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LuizHammerli.TagViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		255BB5582AB9E62600FA9EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2DD4Z95YZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LuizHammerli.TagViewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagViewApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TagViewApp";
+			};
+			name = Debug;
+		};
+		255BB5592AB9E62600FA9EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2DD4Z95YZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LuizHammerli.TagViewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagViewApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TagViewApp";
+			};
+			name = Release;
+		};
+		255BB55B2AB9E62600FA9EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2DD4Z95YZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LuizHammerli.TagViewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TagViewApp;
+			};
+			name = Debug;
+		};
+		255BB55C2AB9E62600FA9EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2DD4Z95YZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LuizHammerli.TagViewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TagViewApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255BB52B2AB9E62400FA9EF2 /* Build configuration list for PBXProject "TagViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255BB5522AB9E62600FA9EF2 /* Debug */,
+				255BB5532AB9E62600FA9EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255BB5542AB9E62600FA9EF2 /* Build configuration list for PBXNativeTarget "TagViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255BB5552AB9E62600FA9EF2 /* Debug */,
+				255BB5562AB9E62600FA9EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255BB5572AB9E62600FA9EF2 /* Build configuration list for PBXNativeTarget "TagViewAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255BB5582AB9E62600FA9EF2 /* Debug */,
+				255BB5592AB9E62600FA9EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255BB55A2AB9E62600FA9EF2 /* Build configuration list for PBXNativeTarget "TagViewAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255BB55B2AB9E62600FA9EF2 /* Debug */,
+				255BB55C2AB9E62600FA9EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		255BB55D2AB9E66C00FA9EF2 /* XCRemoteSwiftPackageReference "LHHelpers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/luizhammeli/LHHelpers.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		255BB55E2AB9E66C00FA9EF2 /* LHHelpers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 255BB55D2AB9E66C00FA9EF2 /* XCRemoteSwiftPackageReference "LHHelpers" */;
+			productName = LHHelpers;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 255BB5282AB9E62400FA9EF2 /* Project object */;
+}

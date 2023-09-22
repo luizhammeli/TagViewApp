@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "lhhelpers",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/luizhammeli/LHHelpers.git",
+      "state" : {
+        "revision" : "e61af09c4647cda758cae442d32fd46c199140d3",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}
